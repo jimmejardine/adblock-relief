@@ -38,6 +38,6 @@ At the same time, you can alter this line in the template with your preferences:
 NB: to receive your payouts you will have to replace the `jamatto-bid="adblock-relief"` attribute with your own Business ID that you can get from your [Jamatto Seller's Dashboard](https://jamatto.com/#/Seller).
 
 ## Ramping up
-We get it - you probably want to test this out on a few of your readers to get a sense of their reaction and to choose the right messaging and price point.  To do it, just include the `<script>` tags for the subset of users you want to trial.  You can do this with pretty much any A/B testing library.
+It probably makes sense to test this out on a few of your readers to choose the right messaging and price point and to get a sense of their reaction to it.  Just include the `<script>` tags for the subset of users you want to trial using pretty much any A/B testing library.
 
-You can then slowly grow this audience as you become more confident.
+You can then slowly grow this test audience as you become more confident.
