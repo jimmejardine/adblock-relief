@@ -31,7 +31,7 @@ Your readers with an ad-blocker installed will be presented with a message that 
 ## Customising your experience
 You know your readers best, so it is probably worth your while to modify `/adblock-relief/template.html` to be in line with your website's style and personality.  It is a simple HTML file, so get your designers to jump in.  It will use the same CSS file as the parent page you are monetising.
 
-At the same time, you can alter this line in the template with your preferences: like currency, price and messaging.
+At the same time, you can alter this line in the template with your preferences: like currency, price and messaging.  The meaning of each attribute is explained [here](https://jamatto.com/#/BusinessCode).
 ```html
 <i class="jamatto-purchase" jamatto-bid="adblock-relief" jamatto-ccy="GBP" jamatto-amount="0.01" jamatto-title="Remove ads" jamatto-caption="Enjoy ad-free for" jamatto-prompt="Enjoy ad-free for" jamatto-make-invisible-id="jammie_adblocker_purchase_div"></i>
 ```
