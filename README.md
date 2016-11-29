@@ -36,3 +36,8 @@ At the same time, you can alter this line in the template with your preferences:
 <i class="jamatto-purchase" jamatto-bid="adblock-relief" jamatto-ccy="GBP" jamatto-amount="0.01" jamatto-title="Remove ads" jamatto-caption="Enjoy ad-free for" jamatto-prompt="Enjoy ad-free for" jamatto-make-invisible-id="jammie_adblocker_purchase_div"></i>
 ```
 NB: to receive your payouts you will have to replace the `jamatto-bid="adblock-relief"` attribute with your own Business ID that you can get from your [Jamatto Seller's Dashboard](https://jamatto.com/#/Seller).
+
+## Ramping up
+We get it - you probably want to test this out on a few of your readers to get a sense of their reaction and to choose the right messaging and price point.  To do it, just include the `<script>` tags for the subset of users you want to trial.  You can do this with pretty much any A/B testing library.
+
+You can then slowly grow this audience as you become more confident.
