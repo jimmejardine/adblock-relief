@@ -29,7 +29,7 @@ Add the following lines to the end of your web page `<body>`.  The first line is
 Your readers with an ad-blocker installed will be presented with a message that offers for them to pay you a small contribution for your content.
 
 ## Customising your experience
-You know your readers best, so it is probably worth your while to modify `/adblock-relief/template.html` to be in line with your website's style and personality.  It is a simple HTML file, so get your designers to jump in.
+You know your readers best, so it is probably worth your while to modify `/adblock-relief/template.html` to be in line with your website's style and personality.  It is a simple HTML file, so get your designers to jump in.  It will use the same CSS file as the parent page you are monetising.
 
 At the same time, you can alter this line in the template with your preferences: like currency, price and messaging.
 ```html
