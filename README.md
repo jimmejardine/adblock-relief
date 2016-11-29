@@ -9,6 +9,8 @@ Instead, why not have an open dialog with your readers.  Most people running ad-
 
 **You can be up and running on your newspaper, magazine or website in less than 2 minutes**.
 
+![Growth of ad-blocking](adblocking-growth.png)
+
 ## Your two-minute installation guide
 
 ### Install the adblock-relief files
