@@ -17,8 +17,8 @@ Instead, why not have an open dialog with your readers.  Most people running ad-
 ## Your two-minute installation guide
 
 ### Install the adblock-relief files
-*Download the `/adblockrelief` directory and place it in the root of your web server with a **random name** (e.g. 'abr12345qwerty' - the random name is important because the ad-blockers may block the word 'adblockrelief').
-*Download `template.html` and `putin.jpg` and place them in the root of your web server.
+* Download the `/adblockrelief` directory and place it in the root of your web server with a **random name** (e.g. 'abr12345qwerty' - the random name is important because the ad-blockers may block the word 'adblockrelief').
+* Download `template.html` and `putin.jpg` and place them in the root of your web server.
 
 ### Enable adblock-relief on your web server
 Add the following lines to the end of your web page `<body>`.  The first line is optional if you have already included jQuery.
