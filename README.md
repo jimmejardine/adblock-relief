@@ -7,7 +7,7 @@ If you're a content producer, you are by now well aware of the rise in use of ad
 
 Trying to thwart the ad-blockers is a battle where everyone loses.
 
-Instead, why not have an open dialog with your readers.  Most people running ad-blockers do so not because they're bad people, but because they feel that ads destroy their internet experience.  Indeed, some newspapers have 2Mb+ of ad content (excluding videos) for just 2kb of news.  How about instead asking your readers to contribute towards funding your journalism with a frictionless micropayments solution - [Jamatto.com](https://jamatto.com).
+Instead, why not have an open dialog with your readers.  Most people running ad-blockers do so not because they're bad people, but because they feel that ads destroy their internet experience.  Indeed, some newspapers have 2Mb+ of ad content (not even counting videos) for just 2kb of news.  How about instead asking your readers to contribute towards funding your journalism with a frictionless micropayments solution - [Jamatto.com](https://jamatto.com).  It could look something like this:
 
 ![A suggested conversation](adblocking-solution.png)
 
