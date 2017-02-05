@@ -52,7 +52,7 @@ Ad-blocker traffic is some of the most valuable you never knew you had:
 * They are very active on social media sites and regularly share content with their peer groups.
 
 ## I had this running, but it seems to have stopped working...
-Occasionally, the ad-blockers may whitelist the files used to detect if an ad-blocker is running.  You need to just change the folder name (i.e. 'abr12345qwerty') to another random name (e.g. 'relief123abc').  Don't forget to update the two script lines that include the adblockreliefcode  in your HTML.
+Occasionally, the ad-blockers may whitelist the files used to detect if an ad-blocker is running.  You need to just change the folder name (i.e. 'abr12345qwerty') to another random name (e.g. 'relief123abc').  Don't forget to update the two script lines that include the adblockrelief code in your HTML.
 ```html
 <script src="/relief123abc/ads/ads.js" type="text/javascript"></script>
 <script src="/relief123abc/app.js" type="text/javascript"></script>
