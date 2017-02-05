@@ -38,7 +38,10 @@ At the same time, you can alter this line in the template with your preferences:
 ```
 NB: to receive your payouts you will have to replace the `jamatto-bid="adblock-relief"` attribute with your own Business ID that you can get from your [Jamatto Seller's Dashboard](https://jamatto.com/#/Seller).
 
-## Ramping up
-It probably makes sense to test this out on a few of your readers to choose the right messaging and price point and to get a sense of their reaction to it.  Just include the `<script>` tags for the subset of users you want to trial using pretty much any A/B testing library.
-
-You can then slowly grow this test audience as you become more confident.
+## Why engage with people running ad-blockers?
+Ad-blocker traffic is some of the most valuable you never knew you had:
+* They are educated, higher earners with significant buying power and disposable income.
+* They are high-frequency consumers of digital content and spend a lot of time pursuing interests they are passionate about.
+* They are early adopters and highly receptive towards trying products and services they discover.
+* They are accustomed to shopping online and regularly make purchases from digital commerce sites.
+* They are very active on social media sites and regularly share content with their peer groups.
