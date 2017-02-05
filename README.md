@@ -17,7 +17,7 @@ Instead, why not have an open dialog with your readers.  Most people running ad-
 ## Your two-minute installation guide
 
 ### Install the adblock-relief files
-*Download the `/adblockrelief` directory and place it in the root of your web server with a *random name* (the random name is important because the ad-blockers may block the word 'adblockrelief').
+*Download the `/adblockrelief` directory and place it in the root of your web server with a **random name** (e.g. 'abr12345qwerty' - the random name is important because the ad-blockers may block the word 'adblockrelief').
 *Download `template.html` and `putin.jpg` and place them in the root of your web server.
 
 ### Enable adblock-relief on your web server
@@ -25,10 +25,10 @@ Add the following lines to the end of your web page `<body>`.  The first line is
 ```html
 <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js" type="text/javascript"></script>
 <script>
-    document["ABR_TEMPLATE"] = "template.html";
+    document["ABR_TEMPLATE"] = "/template.html";
 </script>
-<script src="/adblockrelief/ads/ads.js" type="text/javascript"></script>
-<script src="/adblockrelief/adblock-relief.js" type="text/javascript"></script>
+<script src="/abr12345qwerty/ads/ads.js" type="text/javascript"></script>
+<script src="/abr12345qwerty/app.js" type="text/javascript"></script>
 ```
 
 ### And you're done!
@@ -50,3 +50,10 @@ Ad-blocker traffic is some of the most valuable you never knew you had:
 * They are early adopters and highly receptive towards trying products and services they discover.
 * They are accustomed to shopping online and regularly make purchases from digital commerce sites.
 * They are very active on social media sites and regularly share content with their peer groups.
+
+## I had this running, but it seems to have stopped working...
+Occasionally, the ad-blockers may whitelist the files used to detect if an ad-blocker is running.  You need to just change the folder name (i.e. abr12345qwerty) to another random name (e.g. relief123abc).  Don't forget to update the two script lines that include the adblockreliefcode  in your HTML.
+```html
+<script src="/relief123abc/ads/ads.js" type="text/javascript"></script>
+<script src="/relief123abc/app.js" type="text/javascript"></script>
+```
