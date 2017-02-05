@@ -17,28 +17,31 @@ Instead, why not have an open dialog with your readers.  Most people running ad-
 ## Your two-minute installation guide
 
 ### Install the adblock-relief files
-
-Download the `/ads` and `/adblock-relief` directories and place them in the root of your web server.
+*Download the `/adblockrelief` directory and place it in the root of your web server with a *random name* (the random name is important because the ad-blockers may block the word 'adblockrelief').
+*Download `template.html` and `putin.jpg` and place them in the root of your web server.
 
 ### Enable adblock-relief on your web server
 Add the following lines to the end of your web page `<body>`.  The first line is optional if you have already included jQuery.
 ```html
 <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js" type="text/javascript"></script>
-<script src="/ads/ads.js" type="text/javascript"></script>
-<script src="/adblock-relief/adblock-relief.js" type="text/javascript"></script>
+<script>
+    document["ABR_TEMPLATE"] = "template.html";
+</script>
+<script src="/adblockrelief/ads/ads.js" type="text/javascript"></script>
+<script src="/adblockrelief/adblock-relief.js" type="text/javascript"></script>
 ```
 
 ### And you're done!
 Your readers with an ad-blocker installed will be presented with a message that offers for them to pay you a small contribution for your content.
 
 ## Customising your experience
-You know your readers best, so it is probably worth your while to modify `/adblock-relief/template.html` to be in line with your website's style and personality.  It is a simple HTML file, so get your designers to jump in.  It will use the same CSS file as the parent page you are monetising.
+You know your readers best, so it is probably worth your while to modify `/template.html`  to be in line with your website's style and personality.  It is a simple HTML file, so get your designers to jump in.  It will use the same CSS file as the parent page you are monetising.
 
-At the same time, you can alter this line in the template with your preferences: like currency, price and messaging.  The meaning of each attribute is explained [here](https://jamatto.com/#/BusinessCode).
+At the same time, you can alter the lines in the template with your preferences: like currency, price and messaging.  The meaning of each attribute is explained [here](https://jamatto.com/#/BusinessCode).
 ```html
-<i class="jamatto-purchase" jamatto-bid="adblock-relief" jamatto-ccy="GBP" jamatto-amount="0.01" jamatto-title="Remove ads" jamatto-caption="Enjoy ad-free for" jamatto-prompt="Enjoy ad-free for" jamatto-make-invisible-id="jammie_adblocker_purchase_div"></i>
+<i class="jamatto-purchase" ... jamatto-ccy="GBP" jamatto-amount="0.01" ... ></i>
 ```
-NB: to receive your payouts you will have to replace the `jamatto-bid="adblock-relief"` attribute with your own Business ID that you can get from your [Jamatto Seller's Dashboard](https://jamatto.com/#/Seller).
+NB: to receive your payouts you will have to replace the `jamatto-bid="XXX"` attributes with your own Business ID that you can get from your [Jamatto Seller's Dashboard](https://jamatto.com/#/Seller).
 
 ## Why engage with people running ad-blockers?
 Ad-blocker traffic is some of the most valuable you never knew you had:
