@@ -3,10 +3,10 @@
     // This will be true if the /ads/ads.js file managed to load - in which case there is no ad blocker...
     if (document["ADBLOCKRELIEF"]) return;
 
-    // Use the specified template, otherwise fall back on the default...
+    // Use the specified template
     var TEMPLATE = document["ABR_TEMPLATE"];
     if (!TEMPLATE) {
-        console.error("You need to please specify ADBLOCK_RELIEF_TEMPLATE.  See https://github.com/jimmejardine/adblock-relief for details.");
+        console.error("You need to please specify ABR_TEMPLATE.  See https://github.com/jimmejardine/adblock-relief for details.");
         return;
     }
 
