@@ -1,9 +1,11 @@
-<div id="jammie_adblocker_purchase_div" style="position:fixed;left:0px;top:0px;width:100%;height:100%;background-color:rgba(200,210,220,0.75);z-index:9998;">
+<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  -->
+<!-- If your website already uses jQuery, you can remove this line from this template  - - - - - - - - - - - - - -  -->
+<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  -->
+<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  -->
 
-<div style="position:fixed;left:50%;top:50%;transform:translate(-50%,-50%);width:480px;max-width:90%;background-color:white;z-index:9999;color:darkblue;border: 2px solid black;padding:20px;border-radius:10px;text-align:left;font-size:large;">
-    <img src="/putin.jpg" style="width:120px;float:left;margin:0px 20px 0px 0px;" />
-    We notice you're running an ad-blocker.  
-    <br /><br />
+<div id="abr_purchase_div" style="position:fixed;left:0px;top:0px;width:100%;height:100%;background-color:rgba(250,250,250,0.75);z-index:9998;">
+<div style="position:fixed;left:50%;top:50%;transform:translate(-50%,-50%);width:480px;max-width:90%;background-color:white;z-index:9999;color:darkblue;border:1px solid black;padding:20px;border-radius:10px;text-align:left;font-size:large;    box-shadow: 0px 5px 12px 0 rgba(2,2,2,.3);">
+    <img src="putin.jpg" style="width:120px;float:left;margin:0px 20px 0px 0px;" />
     We get it: you don't want to see any adverts, and we respect that.
     The reality is, ads help us pay for quality journalism.
     <br /><br />
@@ -11,14 +13,19 @@
     <br /><br />
 
     <center>
-        <i class="jamatto-purchase" jamatto-bid="Samples" jamatto-item="AdBlock-single" jamatto-ccy="GBP" jamatto-amount="0.01" jamatto-title="Remove ads - single" jamatto-caption="Enjoy this page ad-free for" jamatto-prompt="Enjoy ad-free for" jamatto-make-invisible-id="jammie_adblocker_purchase_div"></i>
-        <i class="jamatto-purchase" jamatto-bid="Samples" jamatto-item="AdBlock-15min" jamatto-ccy="GBP" jamatto-amount="0.10" jamatto-title="Remove ads - 15min" jamatto-caption="Enjoy 15 mins ad-free for" jamatto-prompt="Enjoy ad-free for" jamatto-make-invisible-id="jammie_adblocker_purchase_div"></i>
-        <i class="jamatto-purchase" jamatto-bid="Samples" jamatto-item="AdBlock-24hour" jamatto-ccy="GBP" jamatto-amount="0.20" jamatto-title="Remove ads - 24hours" jamatto-caption="Enjoy 24 hours ad-free for" jamatto-prompt="Enjoy ad-free for" jamatto-make-invisible-id="jammie_adblocker_purchase_div"></i>
+        <i class="jamatto-purchase" jamatto-bid="Samples" jamatto-item="AdBlock-single" jamatto-ccy="GBP" jamatto-amount="0.01" jamatto-title="Remove ads - single" jamatto-caption="Enjoy this page ad-free for" jamatto-prompt="Enjoy ad-free for" jamatto-make-invisible-id="abr_purchase_div"></i>
+        <i class="jamatto-purchase" jamatto-bid="Samples" jamatto-item="AdBlock-15min" jamatto-ccy="GBP" jamatto-amount="0.10" jamatto-title="Remove ads - 15min" jamatto-caption="Enjoy 15 mins ad-free for" jamatto-prompt="Enjoy ad-free for" jamatto-make-invisible-id="abr_purchase_div"></i>
+        <i class="jamatto-purchase" jamatto-bid="Samples" jamatto-item="AdBlock-24hour" jamatto-ccy="GBP" jamatto-amount="0.20" jamatto-title="Remove ads - 24hours" jamatto-caption="Enjoy 24 hours ad-free for" jamatto-prompt="Enjoy ad-free for" jamatto-make-invisible-id="abr_purchase_div"></i>
     </center>
     <br /><br />
     <div style="font-size:small;text-align:right;">
-        <a href="javascript:jQuery(`#jammie_adblocker_purchase_div`).css(`display`,`none`);">Naaah...journalists should go hungry.</a>
+        <a href="javascript:jQuery(`#abr_purchase_div`).css(`display`,`none`);">Naaah...journalists should go hungry.</a>
     </div>
 </div>
-
 </div>
+
+<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  -->
+<!-- Including this line causes the <i class="jamatto-purchase" /> elements to turn into purchase buttons  - - - -  -->
+<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  -->
+<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  -->
+
