@@ -18,14 +18,14 @@ Instead, why not have an open dialog with your readers.  Most people running ad-
 
 ### Install the adblock-relief files
 * Download the `/adblockrelief` directory and place it in the root of your web server with a **random name** (e.g. 'abr12345qwerty' - the random name is important because the ad-blockers may block the word 'adblockrelief').
-* Download `template.html` and `putin.jpg` and place them in the root of your web server.
+* Download the `/adblockrelieftemplate` directory and place it in the root of your web server with a **random name** (e.g. 'adblockrelieftemplate').
 
 ### Enable adblock-relief on your web server
 Add the following lines to the end of your web page `<body>`.  The first line is optional if you have already included jQuery.
 ```html
 <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js" type="text/javascript"></script>
 <script>
-    document["ABR_TEMPLATE"] = "/template.html";
+    document["ABR_TEMPLATE"] = "/adblockrelieftemplate"; // Point to where your donation template is.
 </script>
 <script src="/abr12345qwerty/ads/ads.js" type="text/javascript"></script>
 <script src="/abr12345qwerty/app.js" type="text/javascript"></script>
@@ -35,9 +35,9 @@ Add the following lines to the end of your web page `<body>`.  The first line is
 Your readers with an ad-blocker installed will be presented with a message that offers for them to pay you a small contribution for your content.
 
 ## Customising your experience
-You know your readers best, so it is probably worth your while to modify `/template.html`  to be in line with your website's style and personality.  It is a simple HTML file, so get your designers to jump in.  It will use the same CSS file as the parent page you are monetising.
+You know your readers best, so it is probably worth your while to modify the contents of `/adblockrelieftemplate`  to be in line with your website's style and personality.  It is simple HTML, so get your designers to jump in.  It will use the same CSS file as the parent page you are monetising.
 
-At the same time, you can alter the lines in the template with your preferences: like currency, price and messaging.  The meaning of each attribute is explained [here](https://jamatto.com/#/BusinessCode).
+At the same time, you can alter the lines in the template `index.html` with your preferences: like currency, price and messaging.  The meaning of each attribute is explained [here](https://jamatto.com/#/BusinessCode).
 ```html
 <i class="jamatto-purchase" ... jamatto-ccy="GBP" jamatto-amount="0.01" ... ></i>
 ```
