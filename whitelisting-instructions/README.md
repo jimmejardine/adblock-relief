@@ -1,5 +1,5 @@
 #How to whitelist a site in your adblocker
-To disable your ad blocker for the website you are currently visiting, follow the instructions below. Instructions will vary depending on which ad-blocking device you have installed.  Also please take care that if you are running multiple adblockers, you will need to whitelist the site each of them.
+To disable your ad blocker for the website you are currently visiting, follow the instructions below. Instructions will vary depending on which ad-blocking device you have installed.  Also please take care that if you are running multiple adblockers, you will need to whitelist the site in each of them.
 
 |||
 |---|---|
