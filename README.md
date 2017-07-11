@@ -21,9 +21,8 @@ Instead, why not have an open dialog with your readers.  Most people running ad-
 * Download the `/adblockrelieftemplate` directory and place it in the root of your web server with a **random name** (e.g. 'adblockrelieftemplate').
 
 ### Enable adblock-relief on your web server
-Add the following lines to the end of your web page `<body>`.  The first line is optional if you have already included jQuery.
+Add the following lines to the end of your web page `<body>`.
 ```html
-<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js" type="text/javascript"></script>
 <script>
     document["ABR_TEMPLATE"] = "/adblockrelieftemplate"; // Point to where your donation template is.
 </script>
